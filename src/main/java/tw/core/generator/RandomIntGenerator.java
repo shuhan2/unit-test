@@ -24,6 +24,6 @@ public class RandomIntGenerator {
             Integer next = rng.nextInt(digitmax);
             generated.add(next.toString());
         }
-        return String.join("", generated);
+        return String.join(" ", generated);
     }
 }
