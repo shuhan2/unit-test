@@ -26,9 +26,9 @@ public class GameView {
     }
 
     public void showGuessHistory(List<GuessResult> guessResults) {
-        System.out.println("Guess History:");
+        System.out.print("Guess History:\n");
         guessResults.stream().forEach(guessResult -> {
-            System.out.println(String.format("[Guess Numbers: %1$s, Guess Result: %2$s]",
+            System.out.print(String.format("[Guess Numbers: %1$s, Guess Result: %2$s]\n",
                     guessResult.getInputAnswer().toString(),
                     guessResult.getResult()));
         });

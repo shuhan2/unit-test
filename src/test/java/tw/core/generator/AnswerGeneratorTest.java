@@ -65,33 +65,6 @@ public class AnswerGeneratorTest {
          assertEquals(answer.toString(),answerGenerator.generate().toString());
      }
 
-//    @Test
-//    public void shouldThrowExceptionForValidAnswerInput() throws Exception {
-//        Answer answer =answerGenerator.generate();
-//        Boolean flag = true;
-//        String str[] = answer.toString().split(" ");
-//        List<String> list =  Arrays.asList(str);
-//        if (answer.toString().replace(" ", "").length() !=4){
-//            flag = false;
-//        }
-//        if (flag == true) {
-//            for (int i = 0; i < 4; i++) {
-//                if(!(Integer.parseInt(list.get(i))>=0&&Integer.parseInt(list.get(i))<=9)){
-//                    flag = false;
-//                    break;
-//                }
-//            }
-//        }
-//        if (flag == true){
-//            Set<String> s = new HashSet<String>(list);
-//
-//            if (s.size()<4){
-//                flag = false;
-//            }
-//        }
-//        assertEquals(true,flag);
-//    }
-//    @Test
-//    public
+
 }
 

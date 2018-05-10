@@ -4,6 +4,7 @@ import com.google.inject.Inject;
 import tw.core.Answer;
 import tw.core.exception.OutOfRangeAnswerException;
 
+//import static org.junit.Assert.*;
 /**
  * Created by jxzhong on 2017/5/17.
  */
